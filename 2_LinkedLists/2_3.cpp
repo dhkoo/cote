@@ -69,5 +69,5 @@ int main()
     a.add_node(1);
     a.deleteCenterNode();
 
-    return 0;
+    return 1;
 }
