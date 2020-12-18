@@ -42,7 +42,7 @@ public:
       for(; iter != tail ; iter=iter->next){
         res++;
       }
-      return res;
+      return res+1;
     }
     
     node *head,*tail;
