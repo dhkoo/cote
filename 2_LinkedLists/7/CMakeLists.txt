@@ -1,0 +1,8 @@
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_BUILD_TYPE Debug)
+
+set(SOURCE_FILE
+  main.cc
+  ../linked_list.cc
+  )
+add_executable(exec ${SOURCE_FILE})
